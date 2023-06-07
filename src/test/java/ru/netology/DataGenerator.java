@@ -47,7 +47,7 @@ public static class Registration {
     }
 
     public static RegistrationDto getUser(String status) {
-        return new  RegistrationDto(getRandomLogin(), getRandomPassword(), status);
+        return new  RegistrationDto("vasya", "password", status);
     }
 
     public static RegistrationDto getRegisteredUser(String status) {
